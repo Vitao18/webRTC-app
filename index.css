@@ -1,0 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e4e4e4;
+}
+
+h1 {
+  width: 780px;
+  margin-left: 20px;
+  float: left;
+}
+
+.m-content {
+  width: 800px;
+  height: 310px;
+  margin: auto;
+}
+
+.photo-booth {
+  width: 800px;
+  height: 310px;
+  float: left;
+}
+
+video {
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 20px;
+  background-color: #333;
+}
+
+canvas {
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 20px;
+  background-color: #777;
+}
+
+.buttons {
+  margin-left: 20px;
+  float: left;
+}
+
+button {
+  background-color: #d84a38;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  margin: 0 0 1em 0;
+  padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+button:active {
+  background-color: #cf402f;
+}
+
+button:hover {
+  background-color: #cf402f;  
+  cursor: pointer;
+}
+
+#filter, #snapshot {
+  display: none;
+  margin-right: 20px;
+  float: left;
+}
+
+.blur {
+  filter: blur(2px);
+}
+
+.grayscale {
+  filter: grayscale(1);
+}
+
+.sepia {
+  filter: sepia(1);
+}
+
+.brightness {
+  filter: brightness(2.2);
+}
+
+.contrast {
+  filter: contrast(3);
+}
+
+.hue {
+  filter: hue-rotate(120deg);
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.saturate {
+  filter: saturate(5);
+}
